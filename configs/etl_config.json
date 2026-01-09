@@ -1,0 +1,25 @@
+{
+    "s3_output_path": "s3a://banking-output/results/",
+
+    "s3_raw_customers":"s3a://banking--data/customers_data/",
+
+    "local_customers" : "/Users/shyamsundarreddysureddy/Desktop/banking_project/data/customers.csv",
+
+    "s3_raw_transactions":"s3a://banking--data/transactions_data/",
+
+    "local_transactions": "/Users/shyamsundarreddysureddy/Desktop/banking_project/data/transactions.csv",
+
+    "s3_raw_loans":"s3a://banking--data/loans_data/",
+
+    "local_loans": "/Users/shyamsundarreddysureddy/Desktop/banking_project/data/loans.csv",
+
+    "local_processed_path": "/Users/shyamsundarreddysureddy/Desktop/banking_project/data/processed/",
+
+    "redshift_jdbc_url": "jdbc:redshift://your-cluster.amazonaws.com:5439/bankdw",
+
+    "redshift_user": "etl_user",
+
+    "redshift_pwd": "secure_pwd_here",
+
+    "log_level": "INFO"
+}
