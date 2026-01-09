@@ -1,8 +1,6 @@
 Banking ETL Pipeline with PySpark
 A production-grade, modular ETL pipeline for banking data processing with support for both local development and AWS S3 deployment.
-Show Image
-Show Image
-Show Image
+
  Features
 
 Dual Environment Support: Seamlessly switch between local and AWS S3 execution
